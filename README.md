@@ -4,6 +4,11 @@ This repository implements how to compute depth from stereo images. This is bein
 
 <img src="data/pendulum/im0.png"   align="center" alt="Original" width="250"/> <img src="data/pendulum/im1.png"  align="center" alt="Undistorted" width="250"/>
 
+## Run Instructions
+```
+python depth.py
+```
+
 ## Feature Matching
 For feature matching, we first need to locate features.
 Here, SIFT (Scale Invariant Feature Transform) is used. This
