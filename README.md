@@ -2,7 +2,7 @@
 
 This repository implements how to compute depth from stereo images. This is being tested on three different datasets, each containing two images of the same sceanrio but different camera angles. The baseline of the stereo setup is given.
 
-<img src="data/pendulum/im0.png"   align="center" alt="Original" width="200"/> <img src="data/pendulum/im1.png"  align="center" alt="Undistorted" width="200"/>
+<img src="data/pendulum/im0.png"   align="center" alt="Original" width="250"/> <img src="data/pendulum/im1.png"  align="center" alt="Undistorted" width="250"/>
 
 ## Feature Matching
 For feature matching, we first need to locate features.
@@ -58,7 +58,7 @@ epipolar lines are parallel then they are considered as coplanar.
 Inbuilt function of cv2.stereoRectifyUncalibrated() is used to
 get homography matrices of both the images.
 
-<img src="Results/dataset1/epipolar_lines.png"  align="center" alt="Undistorted" width="200"/>
+<img src="Results/dataset1/epipolar_lines.png"  align="center" alt="Undistorted" width="300"/>
 ## Correspondence
 The rectified images are available, and for each corresponding pixel on the epipolar line,
 we will search for the same in another image. Here, block
@@ -67,8 +67,8 @@ and slided over in the other image epipolar line and Sum of
 Sqaured Distances is computed.
 
 ## Disparity
-<img src="Results/dataset3/disparity.png"  align="center" alt="Undistorted" width="200"/>
+<img src="Results/dataset3/disparity.png"  align="center" alt="Undistorted" width="300"/>
 
 ## Depth
-<img src="Results/dataset3/depth_gray.png"  align="center" alt="Undistorted" width="200"/>
-<img src="Results/dataset3/depth_map.png"  align="center" alt="Undistorted" width="200"/>
+<img src="Results/dataset3/depth_gray.png"  align="center" alt="Undistorted" width="300"/>
+<img src="Results/dataset3/depth_map.png"  align="center" alt="Undistorted" width="300"/>
