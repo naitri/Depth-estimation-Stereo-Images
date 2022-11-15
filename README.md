@@ -19,7 +19,7 @@ for this project purpose only 150 matches were used.
 jects. All points were collected from this object.
 
 
-<img src="Results/dataset1/feature_match.png"  align="center" alt="Undistorted" width="200"/>
+<img src="Results/dataset1/feature_match.png"  align="center" alt="Undistorted" width="400"/>
 
 ## Calculation of Fundamnetal Matrix using RANSAC
 We use 8 point algorithm to estimate fundamental matrix.
@@ -58,7 +58,7 @@ epipolar lines are parallel then they are considered as coplanar.
 Inbuilt function of cv2.stereoRectifyUncalibrated() is used to
 get homography matrices of both the images.
 
-<img src="Results/dataset1/epipolar_lines.png"  align="center" alt="Undistorted" width="300"/>
+<img src="Results/dataset1/epipolar_lines.png"  align="center" alt="Undistorted" width="400"/>
 ## Correspondence
 The rectified images are available, and for each corresponding pixel on the epipolar line,
 we will search for the same in another image. Here, block
@@ -67,8 +67,8 @@ and slided over in the other image epipolar line and Sum of
 Sqaured Distances is computed.
 
 ## Disparity
-<img src="Results/dataset3/disparity.png"  align="center" alt="Undistorted" width="300"/>
+<img src="Results/dataset3/disparity.png"  align="center" alt="Undistorted" width="400"/>
 
 ## Depth
-<img src="Results/dataset3/depth_gray.png"  align="center" alt="Undistorted" width="300"/>
-<img src="Results/dataset3/depth_map.png"  align="center" alt="Undistorted" width="300"/>
+<img src="Results/dataset3/depth_gray.png"  align="center" alt="Undistorted" width="400"/>
+<img src="Results/dataset3/depth_map.png"  align="center" alt="Undistorted" width="400"/>
